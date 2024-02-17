@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+h1 p ul {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+Header a {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    margin-right: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+Header {
+    padding: 16px 0;
+}
+
+.banner {
+    background: linear-gradient(89.44deg, #051B47 51.69%, #051B47 98.14%);
+    text-transform: capitalize;
+    height: 100vh;
+}
+
+.primary-btn {
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    gap: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF743D;
+    color: #fff;
+}
+
+.banner h1 {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #fff;
+
+}
+
+.banner h1 span {
+    color: #FF743D;
+}
+.banner-content {
+    height: calc(100vh - 95px);
+    display: flex;
+    align-items: center;
+}
+.banner p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #fff;
+    }
+iframe {
+    border-radius: 15px;
+}
